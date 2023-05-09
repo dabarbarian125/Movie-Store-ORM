@@ -1,0 +1,8 @@
+# Ignore folders
+venv
+.pytest_cache
+__pycache__
+backup
+
+# Ignore all text files
+*.png
