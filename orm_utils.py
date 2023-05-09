@@ -6,7 +6,7 @@ from sqlalchemy.orm import lazyload, joinedload
 from sqlalchemy.ext.declarative import declarative_base
 
 
-engine = create_engine('sqlite:////home/runner/Movie-Store-ORM/sqlite-sakila.db')
+engine = create_engine('sqlite:///./sqlite-sakila.db')
 # global Base
 Base = declarative_base(engine)
 # global metadata
